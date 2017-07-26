@@ -8,6 +8,8 @@ import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 import styled, { injectGlobal } from 'styled-components';
 
+const MOBILE = /Mobile|Android/.test(navigator.userAgent);
+
 /* eslint no-unused-expressions: 0 */
 injectGlobal`
   html,
@@ -92,7 +94,7 @@ const Online = () => (
       </h1>
       <br />
       <h2>
-        Disconnect to continue.
+        { MOBILE ? 'Enable Airplane Mode.' : 'Disconnect to continue.'}
       </h2>
     </BlocklyHeader>
   </Page>
