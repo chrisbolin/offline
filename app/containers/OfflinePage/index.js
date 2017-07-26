@@ -88,14 +88,11 @@ const Online = () => (
   <Page style={{ backgroundColor: '#A0A9BB' }}>
     <BlocklyHeader highlighterColor="#181E1E">
       <h1>
-        Please<br />
-        disconnect<br />
-        from the<br />
-        internet.
+        You must go offline to view this page.
       </h1>
       <br />
       <h2>
-        Go offline to continue ...
+        Disconnect to continue.
       </h2>
     </BlocklyHeader>
   </Page>
@@ -105,7 +102,7 @@ const Offline = () => (
   <Page>
     <BlocklyHeader highlighterColor="#7f8ed1">
       <h1>
-        Going Offline
+        Offline Only
       </h1>
       <br />
       <h2>
@@ -114,7 +111,8 @@ const Offline = () => (
     </BlocklyHeader>
     <TextBody>
       <p>
-        Want to be productive? Go offline. Literally disconnect your Wi-Fi, because to maintain a constant connection to the internet is to maintain a constant connection to interruptions, both external and internal.
+        Welcome to the offline world. Do you want to be productive?
+        Just go offline, because to maintain a constant connection to the internet is to maintain a constant connection to interruptions, both external and internal.
       </p>
 
       <p>
@@ -143,6 +141,7 @@ const Offline = () => (
         Offline-only content would also force creators to think differently.
         Look at this page: there is not a single link, no footnote offering to distract readers.
         How many good articles have you left half-read because you chased a shiny underlined link?
+        When you are offline, right here is the only place you can be.
       </p>
 
       <p>
