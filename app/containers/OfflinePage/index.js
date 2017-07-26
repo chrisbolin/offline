@@ -95,7 +95,7 @@ const Online = () => (
       </h1>
       <br />
       <h2>
-        go offline to continue...
+        Go offline to continue ...
       </h2>
     </BlocklyHeader>
   </Page>
@@ -105,13 +105,11 @@ const Offline = () => (
   <Page>
     <BlocklyHeader highlighterColor="#7f8ed1">
       <h1>
-        Offline:<br />
-        Intentional<br />
-        Attention
+        Going Offline
       </h1>
       <br />
       <h2>
-        Less might be more.
+        Disconnection can be good.
       </h2>
     </BlocklyHeader>
     <TextBody>
