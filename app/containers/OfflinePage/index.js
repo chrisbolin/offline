@@ -148,7 +148,8 @@ const Offline = () => (
       </p>
 
       <p>
-        I can already hear the groans: “But I have to be online for my job.” I don’t care. Make time. I bet the thing that makes you valuable is not your ability to Google something, but the ability to synthesize information. Do your research online, but create offline.
+        I can already hear the groans: “But I have to be online for my job.” I don’t care. Make time.
+        I bet the thing that makes you valuable is not your ability to Google something, but your ability to synthesize information. Do your research online, but create offline.
       </p>
 
       <p>
