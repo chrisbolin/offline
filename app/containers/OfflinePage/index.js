@@ -171,7 +171,8 @@ export class OfflinePage extends React.PureComponent { // eslint-disable-line re
     window.addEventListener('online', () => this.setState({ online: true }));
     window.addEventListener('offline', () => this.setState({ online: false }));
     window.addEventListener('keydown', ({ keyCode, shiftKey, metaKey }) =>
-      (keyCode === 48 && shiftKey && metaKey) ? this.setState({ online: !this.state.online }) : null
+      (keyCode === 48 && shiftKey && metaKey && window.location.port === '3000')
+        ? this.setState({ online: !this.state.online }) : null
     );
   }
   render() {
