@@ -15,7 +15,7 @@ const loadModule = (cb) => (componentModule) => {
 export default function createRoutes(store) {
   return [
     {
-      path: '/offline',
+      path: '/',
       name: 'offline',
       getComponent(nextState, cb) {
         const importModules = Promise.all([
@@ -34,7 +34,7 @@ export default function createRoutes(store) {
       path: '*',
       name: 'notfound',
       getComponent() {
-        store.dispatch(push('/offline'));
+        store.dispatch(push('/'));
       },
     },
   ];
