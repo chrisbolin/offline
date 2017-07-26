@@ -95,7 +95,7 @@ const Online = () => (
       </h1>
       <br />
       <h2>
-        Trust me.
+        go offline to continue...
       </h2>
     </BlocklyHeader>
   </Page>
