@@ -49,7 +49,7 @@ const Page = styled.div`
 
 const Content = `
   margin: auto;
-  min-width: 340px;
+  min-width: 320px;
   width: 80%;
   max-width: 640px;
 `;
@@ -90,11 +90,11 @@ const Online = () => (
   <Page style={{ backgroundColor: '#A0A9BB' }}>
     <BlocklyHeader highlighterColor="#181E1E">
       <h1>
-        You must go offline to view this page.
+        You must go offline to view this page
       </h1>
       <br />
       <h2>
-        { MOBILE ? 'Enable Airplane Mode.' : 'Disconnect to continue.'}
+        { MOBILE ? 'Enable Airplane Mode' : 'Disconnect to continue'}
       </h2>
     </BlocklyHeader>
   </Page>
@@ -108,7 +108,7 @@ const Offline = () => (
       </h1>
       <br />
       <h2>
-        Disconnection can be good.
+        Disconnection can be good
       </h2>
     </BlocklyHeader>
     <TextBody>
@@ -173,13 +173,12 @@ export class OfflinePage extends React.PureComponent { // eslint-disable-line re
     window.addEventListener('online', () => this.setState({ online: true }));
     window.addEventListener('offline', () => this.setState({ online: false }));
     window.addEventListener('keydown', ({ keyCode, shiftKey, metaKey }) =>
-      (keyCode === 48 && shiftKey && metaKey && window.location.port === '3000')
+      (keyCode === 48 && shiftKey && metaKey && window.location.port === '3000') // cmd+shift+0
         ? this.setState({ online: !this.state.online }) : null
     );
   }
   render() {
     return this.state.online ? <Online /> : <Offline />;
-    // return <Offline />;
   }
 }
 
