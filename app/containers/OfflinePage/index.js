@@ -6,6 +6,7 @@
 
 import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
+import { Offline, Online } from 'react-detect-offline';
 import styled, { injectGlobal } from 'styled-components';
 
 const MOBILE = /Mobile|Android/.test(navigator.userAgent);
@@ -86,7 +87,7 @@ const BlocklyHeader = styled.div`
   }
 `;
 
-const Online = () => (
+const OnlineContent = () => (
   <Page style={{ backgroundColor: '#A0A9BB' }}>
     <BlocklyHeader highlighterColor="#181E1E">
       <h1>
@@ -100,7 +101,7 @@ const Online = () => (
   </Page>
 );
 
-const Offline = () => (
+const OfflineContent = () => (
   <Page>
     <BlocklyHeader highlighterColor="#7f8ed1">
       <h1>
@@ -113,7 +114,7 @@ const Offline = () => (
     </BlocklyHeader>
     <TextBody>
       <p>
-        Welcome to the offline world. Do you want to be productive?
+        Do you want to be productive?
         Just go offline, because to maintain a constant connection to the internet is to maintain a constant connection to interruptions, both external and internal.
       </p>
 
@@ -163,22 +164,13 @@ const Offline = () => (
 );
 
 export class OfflinePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
-  constructor() {
-    super();
-    this.state = {
-      online: navigator.onLine,
-    };
-  }
-  componentDidMount() {
-    window.addEventListener('online', () => this.setState({ online: true }));
-    window.addEventListener('offline', () => this.setState({ online: false }));
-    window.addEventListener('keydown', ({ keyCode, shiftKey, metaKey }) =>
-      (keyCode === 48 && shiftKey && metaKey && window.location.port === '3000') // cmd+shift+0
-        ? this.setState({ online: !this.state.online }) : null
-    );
-  }
   render() {
-    return this.state.online ? <Online /> : <Offline />;
+    return (
+      <div>
+        <Offline><OfflineContent /></Offline>
+        <Online><OnlineContent /></Online>
+      </div>
+    );
   }
 }
 

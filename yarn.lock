@@ -6108,6 +6108,10 @@ react-deep-force-update@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-1.0.1.tgz#f911b5be1d2a6fe387507dd6e9a767aa2924b4c7"
 
+react-detect-offline@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-detect-offline/-/react-detect-offline-1.0.2.tgz#a3ef5718166cd3680cc3c70466bec1502ba79f00"
+
 react-dom@15.4.1:
   version "15.4.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.4.1.tgz#d54c913261aaedb17adc20410d029dcc18a1344a"
