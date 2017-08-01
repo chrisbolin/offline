@@ -45,18 +45,20 @@ injectGlobal`
 
 const Page = styled.div`
   min-height: 100vh;
+  padding: 2px;
   /* medium / wordpress approach https://css-tricks.com/snippets/css/system-font-stack/ */
 `;
 
 const Content = `
   margin: auto;
-  min-width: 320px;
+  min-width: 310px;
   width: 80%;
   max-width: 640px;
 `;
 
 const TextBody = styled.div`
   ${Content}
+  min-width: 300px;
   font-family: "Apple Garamond", "Baskerville", "Times New Roman", "Droid Serif", "Times","Source Serif Pro", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   padding: 20px 0 50px;
   font-size: 22px;
@@ -66,7 +68,7 @@ const TextBody = styled.div`
 const BlocklyHeader = styled.div`
   ${Content}
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif,"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: calc(2.5em + 5vmin);
+  font-size: calc(2.5em + 4.2vmin);
   line-height: 130%;
   color: #F6F6F6;
   font-weight: 700;
@@ -91,11 +93,11 @@ const OnlineContent = () => (
   <Page style={{ backgroundColor: '#A0A9BB' }}>
     <BlocklyHeader highlighterColor="#181E1E">
       <h1>
-        You must go offline to view this page
+        You must go offline to view this page.
       </h1>
       <br />
       <h2>
-        { MOBILE ? 'Enable Airplane Mode' : 'Disconnect to continue'}
+        { MOBILE ? 'Enable Airplane Mode.' : 'Disconnect to continue'}
       </h2>
     </BlocklyHeader>
   </Page>
@@ -107,12 +109,9 @@ const OfflineContent = () => (
       <h1>
         Offline Only
       </h1>
-      <br />
-      <h2>
-        Disconnection can be good
-      </h2>
     </BlocklyHeader>
     <TextBody>
+      <p><i>2017. 2-minute read.</i></p>
       <p>
         Do you want to be productive?
         Just go offline, because to maintain a constant connection to the internet is to maintain a constant connection to interruptions, both external and internal.
