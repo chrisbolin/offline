@@ -48,7 +48,7 @@
   "lint-staged": {
     "*.js": "lint:eslint"
   },
-  "pre-commit": "lint:eslint",
+  "pre-commit": "lint:js",
   "babel": {
     "presets": [
       [
