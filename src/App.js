@@ -50,7 +50,7 @@ const Content = `
   margin: auto;
   min-width: 310px;
   width: 80%;
-  max-width: 640px;
+  max-width: 600px;
 `;
 
 const TextBody = styled.div`
