@@ -4,17 +4,25 @@ import styled, { injectGlobal } from 'styled-components';
 
 const MOBILE = /Mobile|Android/.test(navigator.userAgent);
 
+const colors = {
+  black: '#181e1e',
+  white: '#f6f6f6',
+  blueGrey: '#a0a9bb',
+  funBlue: '#7f8ed1',
+  selectionGreen: '#47ff90',
+};
+
 /* eslint no-unused-expressions: 0 */
 injectGlobal`
   html,
   body {
-    background-color: #F6F6F6;
+    background-color: ${colors.black};
     margin: 0;
     padding: 0;
   }
 
   ::selection {
-    background: yellow;
+    background: ${colors.selectionGreen};
   }
 
   @keyframes fadeIn {
@@ -67,7 +75,7 @@ const BlocklyHeader = styled.div`
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif,"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: calc(2.5em + 4.2vmin);
   line-height: 130%;
-  color: #F6F6F6;
+  color: ${colors.white};
   font-weight: 700;
   padding: 50px 0 10px;
   animation: 300ms ease-out 0s 1 fadeIn;
@@ -87,8 +95,8 @@ const BlocklyHeader = styled.div`
 `;
 
 const OnlineContent = () => (
-  <Page style={{ backgroundColor: '#A0A9BB' }}>
-    <BlocklyHeader highlighterColor="#181E1E">
+  <Page style={{ backgroundColor: colors.blueGrey }}>
+    <BlocklyHeader highlighterColor={colors.black}>
       <h1>
         You must go offline to view this page.
       </h1>
@@ -101,8 +109,8 @@ const OnlineContent = () => (
 );
 
 const OfflineContent = () => (
-  <Page>
-    <BlocklyHeader highlighterColor="#7f8ed1">
+  <Page style={{ backgroundColor: colors.white }}>
+    <BlocklyHeader highlighterColor={colors.funBlue}>
       <h1>
         Offline Only
       </h1>
