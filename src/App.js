@@ -161,13 +161,18 @@ const OfflineContent = () => (
       </p>
 
       <p>
-        ❤️ Chris
+        <span role="img" aria-label="love">❤️</span> Chris
       </p>
     </TextBody>
   </Page>
 );
 
 export default class OfflinePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
+	componentDidMount() {
+		console.log('But how does it work?');
+		console.log(`Check out https://github.com/chrisbolin/react-detect-offline (if you're online!)`);
+		console.log(`Spoiler: window.addEventListener with 'online' and 'offline', plus navigator.onLine`);
+	}
   render() {
     return (
       <div>
