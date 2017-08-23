@@ -172,6 +172,12 @@ export default class OfflinePage extends React.PureComponent { // eslint-disable
 		console.log('But how does it work?');
 		console.log(`Check out https://github.com/chrisbolin/react-detect-offline (if you're online!)`);
 		console.log(`Spoiler: window.addEventListener with 'online' and 'offline', plus navigator.onLine`);
+		console.log(`If it isn't working for you, maybe your browser isn't supported - http://caniuse.com/#feat=online-status.`);
+		console.log(`If that's the case, run window.help() for the spoiler.`);
+		window.help = () => {
+			console.log(`OK, let's make this easier. just run window.dispatchEvent(new Event('offline'))`);
+			console.log(`Still didn't work? Damn. I'm just really sorry.`);
+		};
 	}
   render() {
     return (
