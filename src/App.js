@@ -129,10 +129,13 @@ const OfflineContent = () => (
       <p>
         But it’s the internal distractions that are truly pernicious.
         You can mute Twitter notifications and log off of Slack, but how do you stop your own mind from derailing you?
+			</p>
+
+			<p>
         I have spent hours caught in webs of my own curiosity.
         Most dangerous is the split-second whim, apropos of nothing:
         “I wonder what the second most commonly spoken language is?”
-        Those 500 milliseconds could change your day, because it is never just one Google search, just one Wikipedia article.
+        Those 500 milliseconds could change your day, because it is never just one Google search, never just one Wikipedia article.
         Disconnecting from the internet short-circuits those whims, allowing you to move on unencumbered.
         (It’s Spanish, by the way.)
       </p>
