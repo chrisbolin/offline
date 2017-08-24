@@ -123,40 +123,45 @@ const OfflineContent = () => (
       </p>
 
       <p>
-        The external interruptions are legion and well-documented: you have a new message on Gmail, Slack, Twitter, Facebook, Instagram, Snapchat, LinkedIn. Friends, family, coworkers, and spammers: each have direct access to your precious attention.
+        The external interruptions are legion and well documented:
+				you have a new message on Gmail, Slack, Twitter, Facebook, Instagram, Snapchat, LinkedIn. Friends, family, coworkers, and spammers: each have direct access to your precious attention.
       </p>
 
       <p>
         But it’s the internal distractions that are truly pernicious.
-        You can mute Twitter notifications and log off of Slack, but how do you stop your own mind from derailing you?
+        You can mute Twitter notifications and log off from Slack, but how do you stop your own mind from derailing you?
 			</p>
 
 			<p>
         I have spent hours caught in webs of my own curiosity.
-        Most dangerous is the split-second whim, apropos of nothing:
+        Most dangerous is the split-second whim:
         “I wonder what the second most commonly spoken language is?”
-        Those 500 milliseconds could change your day, because it is never just one Google search, never just one Wikipedia article.
+        Those 500 milliseconds could change your day, because it's never just one Google search, never just one Wikipedia article.
         Disconnecting from the internet short-circuits those whims, allowing you to move on unencumbered.
-        (It’s Spanish, by the way.)
       </p>
 
       <p>
-        This page itself is an experiment in this vein: what if certain content required us to disconnect?
-        What if readers had access to that glorious attention that makes devouring a novel for hours at a time so satisfying?
+				(It’s Spanish, by the way.)
+      </p>
+
+      <p>
+        This page itself is an experiment in that vein: What if certain content required us to disconnect?
+        What if readers had access to that glorious focus that makes devouring a novel for hours at a time so satisfying?
         What if creators could pair that with the power of modern devices?
-        Our phones and laptops are amazing platforms for novel content — if only we could harness our own attention.
+        Our phones and laptops are amazing platforms for inventive content—if only we could harness our own attention.
       </p>
 
       <p>
         Offline-only content would also force creators to think differently.
-        Look at this page: there is not a single link, no footnote offering to distract readers.
+        Look at this page: there is not a single link to distract readers.
         How many good articles have you left half-read because you chased a shiny underlined link?
         When you are offline, right here is the only place you can be.
       </p>
 
       <p>
         I can already hear the groans: “But I have to be online for my job.” I don’t care. Make time.
-        I bet the thing that makes you valuable is not your ability to Google something, but your ability to synthesize information. Do your research online, but create offline.
+        I bet the thing that makes you valuable is not your ability to Google something but your ability to synthesize information.
+				Do your research online; create offline.
       </p>
 
       <p>
