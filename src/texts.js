@@ -86,56 +86,37 @@ export const languages = {
 		],
 		title: () => 'Déconnecté uniquement',
 		bodyParagraphs: () => [
-			<p><i>2017. 2-minute read.</i></p>,
+			<p><i>2017. 2 minutes pour lire.</i></p>,
 			<p>
-				Do you want to be productive?
-				Just go offline, because to maintain a constant connection to the internet is to maintain a constant connection to interruptions, both external and internal.
+				Vous voulez être productif ? Il suffit de passer en mode « hors connexion », car maintenir une connexion constante à internet est le meilleur moyen de maintenir une connexion constante aux interruptions, à la fois externes et internes.
 			</p>,
 
 			<p>
-				The external interruptions are legion and well documented:
-				you have a new message on Gmail, Slack, Twitter, Facebook, Instagram, Snapchat, LinkedIn. Friends, family, coworkers, and spammers: each have direct access to your precious attention.
+				Les interruptions externes sont légion et bien présentes : vous avez un nouveau message sur Gmail, Twitter, Facebook, Instagram, Snapchat, LinkedIn. Amis, famille, collègues et spammeurs : chacun a un accès direct à votre précieuse attention.
 			</p>,
 
 			<p>
-				But it’s the internal distractions that are truly pernicious.
-				You can mute Twitter notifications and log off from Slack, but how do you stop your own mind from derailing you?
+				Mais ce sont les distractions internes qui sont les plus pernicieuses. Vous pouvez annuler les notifications de Twitter et vous déconnecter de Facebook, mais comment empêcher votre esprit de vous distraire ? J’ai passé des heures dans les méandres de ma propre curiosité. Le plus dangereux est le caprice de la fraction de seconde, à propos de presque rien : “ Je me demande quelle est la deuxième langue la plus fréquemment parlée ? ”. Comment ces 500 millisecondes pourraient-elles changer votre journée ? Car ce n’est jamais qu’une seule recherche sur Google, juste un article sur Wikipédia. Se déconnecter d’internet, c’est court-circuiter ces caprices, vous permettant de vous déplacer sans encombre.
 			</p>,
 
 			<p>
-				I have spent hours caught in webs of my own curiosity.
-				Most dangerous is the split-second whim:
-				“I wonder what the second most commonly spoken language is?”
-				Those 500 milliseconds could change your day, because it's never just one Google search, never just one Wikipedia article.
-				Disconnecting from the internet short-circuits those whims, allowing you to move on unencumbered.
+				(C’est l’espagnol, soit dit en passant).
 			</p>,
 
 			<p>
-				(It’s Spanish, by the way.)
+				Cette page elle-même est une expérience inspirée de cette idée : que faire si certains contenus nous obligaient à nous déconnecter ? Et si les lecteurs avaient accès à cette inestimable attention qui rend le roman si passionnant pendant des heures ? Et si les créateurs pouvaient coupler cela avec la puissance des appareils modernes ? Nos téléphones et ordinateurs portables sont des plates-formes incroyables pour de nouveaux contenus — si seulement nous pouvions attirer notre attention.
 			</p>,
 
 			<p>
-				This page itself is an experiment in that vein: What if certain content required us to disconnect?
-				What if readers had access to that glorious focus that makes devouring a novel for hours at a time so satisfying?
-				What if creators could pair that with the power of modern devices?
-				Our phones and laptops are amazing platforms for inventive content—if only we could harness our own attention.
+				Un contenu disponible uniquement hors ligne obligerait les créateurs à réfléchir différemment. Regardez cette page : il n’y a pas de lien, pas de note de bas de page pour distraire les lecteurs. Combien de bons articles avez-vous laissés en cours de lecture parce que vous avez suivi un lien ? Lorsque vous êtes hors ligne, vous êtes présent et attentif.
 			</p>,
 
 			<p>
-				Offline-only content would also force creators to think differently.
-				Look at this page: there is not a single link to distract readers.
-				How many good articles have you left half-read because you chased a shiny underlined link?
-				When you are offline, right here is the only place you can be.
+				Je peux déjà en entendre se plaindre : “ Mais je dois être en ligne pour mon travail. ” Peu importe. Prenez le temps. Je parie que ce qui vous rend si précieux n’est pas votre capacité à aller sur Google, mais votre capacité à synthétiser l’information. Faites vos recherches en ligne, mais créez déconnecté.
 			</p>,
 
 			<p>
-				I can already hear the groans: “But I have to be online for my job.” I don’t care. Make time.
-				I bet the thing that makes you valuable is not your ability to Google something but your ability to synthesize information.
-				Do your research online; create offline.
-			</p>,
-
-			<p>
-				Now back to your regularly scheduled internet. Just remember to give yourself an occasional gift of disconnection.
+				Reconnectez-vous à présent. Mais n’oubliez pas de vous offrir occasionnellement une déconnexion.
 			</p>,
 
 			<p>
