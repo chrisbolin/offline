@@ -139,7 +139,7 @@ export const languages = {
 				{ MOBILE ? 'Abilita la modalità aereo.' : 'Disconnettiti per continuare'}
 			</h2>
 		],
-		title: () => 'Esclusivamente Offline',
+		title: () => 'Solo Offline',
 		bodyParagraphs: () => [
 			<p><i>2017 - Tempo di Lettura: 2 minuti</i></p>,
 			<p>
@@ -152,7 +152,7 @@ export const languages = {
 				Sono però le interruzioni interne ad essere davvero pericolose. Puoi silenziare le notifiche di Twitter e scollegarti da Slack, è vero, ma come si fa a rimanere concentrati?
 			</p>,
 			<p>
-				Trascorrevo ore sui siti web di mio interesse. La minaccia più grande alla mia capacità di rimanere concentrato è il capriccio improvviso: “Mi domando quale sia la seconda lingua più parlata al mondo”.
+				Trascorro ore sui siti web di mio interesse. La minaccia più grande alla mia capacità di rimanere concentrato è proprio quel capriccio improvviso: “Mi domando quale sia la seconda lingua più parlata al mondo”.
 			</p>,
 			<p>
 				Quei 500 millisecondi potrebbero cambiare la tua giornata, perché non è mai solo una ricerca su Google o un articolo su Wikipedia.
@@ -170,13 +170,13 @@ export const languages = {
 				Cosa accadrebbe se i creativi potessero combinare questa particolarità, sfruttando la potenza dei dispositivi tecnologici? I nostri cellulari e i nostri computer sono piattaforme straordinarie per creare contenuti ingegnosi, se solo potessimo controllare la nostra attenzione.
 			</p>,
 			<p>
-				Rendere disponibili i contenuti esclusivamente offline obbligherebbe i creativi a pensare diversamente. Guarda questa pagina: non c’è alcun link che possa distrarre il lettore. Quanti articoli interessanti avete lasciato a metà, perché un link sottolineato tutto scintillante ha catturato la vostra attenzione? Quando siete offline, è quello l’unico posto in cui vi trovate.
+				Rendere disponibili i contenuti esclusivamente offline obbligherebbe i creativi a pensare diversamente. Guarda questa pagina: non c’è alcun link che possa distrarre il lettore. Quanti articoli interessanti hai lasciato a metà, perché un link sottolineato tutto scintillante ha catturato la tua attenzione? Quando sei offline, è quello l’unico posto in cui ti trovi.
 			</p>,
 			<p>
 				Già le sento le lamentele: “Ma io ci devo essere online, è per lavoro”. Non mi importa. Trova il tempo. Scommetto che ciò che ti rende così speciale non è la tua capacità di cercare qualcosa su Google, bensì la capacità di sintesi. Fa’ ricerca online e crea offline.
 			</p>,
 			<p>
-				Ora torna pure alle tue attività su Internet. Ricorda slo di fare a te stesso un piccolo regalo ogni tanto: disconnettiti.
+				Ora torna pure alle tue attività su Internet. Ricorda solo di fare a te stesso un piccolo regalo ogni tanto: disconnettiti.
 			</p>,
 			<p>
 				<span role="img" aria-label="love">❤️</span> Chris Bolin

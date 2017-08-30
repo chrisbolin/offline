@@ -110,7 +110,7 @@ const Select = styled.select`
 	border: none;
 	background-color: ${colors.black};
   border-radius: 0;
-  padding: 4px;
+  padding: 5px 15px;
 `
 
 export const OnlineContent = ({ language }) => (
