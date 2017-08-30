@@ -169,7 +169,7 @@ const OfflineContent = () => (
       </p>
 
       <p>
-        <span role="img" aria-label="love">❤️</span> Chris
+        <span role="img" aria-label="love">❤️</span> Chris Bolin <i>(@bolinchris when you reconnect)</i>
       </p>
     </TextBody>
   </Page>
