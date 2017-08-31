@@ -189,6 +189,82 @@ export const languages = {
 
 		],
 	},
+	es: {
+		onlineElements: () => [
+			<h1>
+				Tienes que desconectarte para consultar esta página.
+			</h1>,
+			<br />,
+			<h2>
+				{ MOBILE ? 'Activa el modo avión' : 'Desconéctate para continuar'}
+			</h2>
+		],
+		title: () => 'Sólo sin conexión',
+		bodyParagraphs: () => [
+			<p><i>2017 - Tiempo de lectura: 2 minutos</i></p>,
+
+			<p>
+				¿Quieres ser productivo?
+				Sólo tienes que pasar en modo "sin conexión" puesto que mantenerte constantemente conectado a Internet es mantener una conexión constante a las interrupciones, tanto internas como externas.
+			</p>,
+
+			<p>
+				Las interrupciones externas son innumerables y las conocemos bien:
+				tienes un nuevo mensaje en Gmail, Slack, Twitter, Facebook, Instagram, Snapchat, LinkedIn. Amigos, familiares, compañeros de trabajo y spammers: todos tienen acceso a tu preciada atención.
+			</p>,
+
+			<p>
+				Pero las distracciones verdaderamente dañinas son las internas.
+				Puedes silenciar las notificaciones de Twitter y cerrar tu sesión de Slack, pero ¿cómo evitas que tu mente se distraiga?
+			</p>,
+
+			<p>
+				He perdido horas atrapado en webs que me parecían interesantes.
+				Lo más peligroso es cuando llega el dichoso instante en el que se me antoja preguntarme:
+				"¿cúal será la segunda lengua más hablada?"
+				Esos 500 milisegundos pueden cambiar tu día, porque al final nunca es una sola búsqueda en Google o un solo artículo en la Wikipedia.
+				Desconectándote de Internet cortocircuiteas estos caprichos, lo que te permite avanzar sin obstáculos.
+			</p>,
+
+			<p>
+				(Es el español, por cierto.)
+			</p>,
+
+			<p>
+				Esta página es un experimento en esa línea: ¿Qué pasaría si para acceder a algunos contenidos fuese obligatorio desconectarse	?
+				¿Qué pasaría si los lectores tuvieran acceso a esa gloriosa capacidad de atención que te permite devorar una novela durante horas y lo hace tan placentero?
+				¿O si pudiéramos juntar a los creadores con el poder de los dispositivos modernos?
+				Nuestros teléfonos y ordenadores portátiles son plataformas increíbles para crear contenidos siempre y cuando seamos capaces de concentrarnos.
+			</p>,
+
+			<p>
+				El contenido disponible sólo en modo sin conexión también puede llevar a los creadores a pensar de manera diferente.
+				Mira esta página: no tiene ni un sólo enlace que distraiga a los lectores.
+				¿Cuántos buenos artículos has dejado a la mitad por haber seguido un enlace llamativo?
+				Cuando estás sin conexión, el único sitio donde puedes estar es aquí.
+			</p>,
+
+			<p>
+				Ya oigo las quejas: "Pero tengo que estar conectado para trabajar." Me da igual. Encuentra tiempo.
+				Apuesto que lo que te hace valioso no es tu habilidad para buscar algo en Google sino tu capacidad para sintetizar información.
+				Busca en línea, crea sin conexión.
+			</p>,
+
+			<p>
+				Ahora vuelve a tu actividad normal en Internet. Lo único, no te olvides hacerte de vez en cuando un regalo a tí mismo: desconectar.
+			</p>,
+
+			<p>
+				<span role="img" aria-label="love">❤️</span> Chris Bolin
+				<br/>
+				<i>(@bolinchris cuando te conectes)</i>
+			</p>,
+			<p>
+				Traducido por Javier Blanco García-Lomas.
+			</p>
+
+		],
+	},
 };
 
 
