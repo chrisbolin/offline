@@ -205,7 +205,7 @@ export const languages = {
 
 			<p>
 				¿Quieres ser productivo?
-				Sólo tienes que pasar en modo "sin conexión" puesto que mantenerte constantemente conectado a Internet es mantener una conexión constante a las interrupciones, tanto internas como externas.
+				Desconéctate, puesto que mantenerte constantemente conectado a Internet es mantener una conexión constante a las interrupciones, tanto internas como externas.
 			</p>,
 
 			<p>
