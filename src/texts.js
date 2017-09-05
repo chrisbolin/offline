@@ -146,7 +146,7 @@ export const languages = {
 		],
 		title: () => 'Solo Offline',
 		bodyParagraphs: () => [
-			<p><i>2017 - Tempo di Lettura: 2 minuti</i></p>,
+			<p><i>2017. Tempo di Lettura: 2 minuti.</i></p>,
 			<p>
 				Vorresti essere più produttivo? Allora passa all’offline, perché avere una connessione costante a internet significa avere un contatto costante con le interruzioni, sia esterne che interne.
 			</p>,
@@ -207,7 +207,7 @@ export const languages = {
 		],
 		title: () => 'Sólo sin conexión',
 		bodyParagraphs: () => [
-			<p><i>2017 - Tiempo de lectura: 2 minutos</i></p>,
+			<p><i>2017. Tiempo de lectura: 2 minutos.</i></p>,
 
 			<p>
 				¿Quieres ser productivo?
@@ -271,6 +271,8 @@ export const languages = {
 
 		],
 	},
+
+	// ------------------------------------ GERMAN ------------------------------------
 	de: {
 		onlineElements: () => [
 			<h1>
@@ -278,7 +280,7 @@ export const languages = {
 			</h1>,
 			<br />,
 			<h2>
-				{ MOBILE ? 'Enable Airplane Mode.' : 'Disconnect to continue'}
+				{ MOBILE ? 'Flugzeugmodus aktivieren' : 'Internetverbindung trennen um fortzufahren'}
 			</h2>
 		],
 		title: () => 'Nur Offline',
