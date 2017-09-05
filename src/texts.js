@@ -271,6 +271,80 @@ export const languages = {
 
 		],
 	},
+	de: {
+		onlineElements: () => [
+			<h1>
+				Du must Offline gehen, um diese Seite anzuzeigen.
+			</h1>,
+			<br />,
+			<h2>
+				{ MOBILE ? 'Enable Airplane Mode.' : 'Disconnect to continue'}
+			</h2>
+		],
+		title: () => 'Nur Offline',
+		bodyParagraphs: () => [
+			<p><i>2017. Eine 2 Minuten Lektüre.</i></p>,
+			<p>
+				Du möchtest produktiv sein?
+				Geh einfach offline. Denn eine permanente Verbindung zum Internet bedeutet ständig auf Unterbrechungen zu reagieren, externe und interne.
+			</p>,
+
+			<p>
+				Die externen Unterbrechungen sind bekannt und gut documentiert:
+				du hast neue Nachrichten auf Gmail, Slack, Twitter, Facebook, Instagram, Snapchat, LinkedIn. Freunde, Familie, Kollegen und Spammer: jeweils mit direkten Zugriff auf deine wertvolle Aufmerksamkeit.
+			</p>,
+
+			<p>
+				Aber es sind die inneren Ablenkungen, die wirklich schädlich sind.
+				Du kannst Benachrichtigungen von Twitter stumm schalten und dich bei Slack ausloggen. Aber wie verhinderst Du, dass dein Verstand ständig abschweift?
+			</p>,
+
+			<p>
+				Stundenlang war ich gefangen im Netz meiner eigenen Neugier.
+				Am gefährlichsten ist der Moment einer Laune zu folgen.
+				»Ich frage mich, was die zweithäufigste gesprochene Sprache ist?«
+				Diese 500 Millisekunden können deinen Tag verändern, denn es ist nie nur eine einzige Suchabfrage bei Google, nie nur ein einziger Artikel bei Wikipedia.
+				Eine Trennung vom Internet unterbindet diese Launen und erlaubt es dir unbehindert weiter zu machen.
+			</p>,
+
+			<p>
+				(Nur nebenbei. Es ist Spanisch.)
+			</p>,
+
+			<p>
+				Diese Seite selbst ist ein Experiment in diesem Zusammenhang: Was wäre, wenn bestimmte Inhalte es erfordern unsere Verbinung zu trennen?
+				Was, wenn die Leser Zugang zu diesem wunderbaren Fokus bekommen, welcher das stundenlange Verschlingen eines Roman so befriedigend macht?
+				Was, wenn die Urheber es mit dem Potenzial moderner Geräte verbinden könnten?
+				Unsere Handys und Laptops sind erstaunliche Plattformen erfinderische Inhalte - wenn wir nur unsere eigene Aufmerksamkeit nutzen könnten.
+			</p>,
+
+			<p>
+				Inhalte, die nur offline zugänglich sind, würden auch die Urheber zwingen anders zu denken.
+				Nimm diese Seite: hier ist nicht ein einziger Link, der den Leser ablenkt.
+				Wie viele gute Artikel hast du nur zur Hälfte gelesen, weil du einem strahlend unterstrichenen Link gefolgt bist.
+				Wenn du offline bist, wie gerade jetzt, dann ist dass der einzige Ort an dem du sein kannst.
+			</p>,
+
+			<p>
+				Ich kann schon das Stöhnen hören: »Aber ich muss für meinen Job online sein«. Es ist mir egal. Schaffe dir Zeit.
+				I wette, das was dich auszeichnet ist nicht deine Fähigkeit irgendetwas zu googeln, sondern deine Fahigkeit Informationen zu verarbeiten.
+				Mach deine Recherche online; schaffe offline.
+			</p>,
+
+			<p>
+				Nun kehre zurück zum regulären Internet. Denke nur daran, dir gelegentlich selbst das Geschenk der Trennung davon zu machen.
+			</p>,
+
+			<p>
+				<span role="img" aria-label="love">❤️</span> Chris Bolin
+				<br/>
+				<i>(@bolinchris wenn du wieder online bist)</i>
+			</p>,
+			<p>
+				Übersetzt von Frank Dietrich
+			</p>
+		],
+	},
 };
 
 

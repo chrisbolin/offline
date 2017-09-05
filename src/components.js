@@ -138,6 +138,7 @@ export const OfflineContent = ({ language }) => (
 export const LanguageSwitcher = ({language, onChange}) => (
 	<Select value={language} onChange={onChange} >
 		<option value="en">english</option>
+		<option value="de">deutsch</option>
 		<option value="fr">français</option>
 		<option value="es">español</option>
 		<option value="it">italiano</option>
