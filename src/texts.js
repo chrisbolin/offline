@@ -324,7 +324,7 @@ export const languages = {
 				Inhalte, die nur offline zugänglich sind, würden auch die Urheber zwingen anders zu denken.
 				Nimm diese Seite: hier ist nicht ein einziger Link, der den Leser ablenkt.
 				Wie viele gute Artikel hast du nur zur Hälfte gelesen, weil du einem strahlend unterstrichenen Link gefolgt bist.
-				Wenn du offline bist, wie gerade jetzt, dann ist dass der einzige Ort an dem du sein kannst.
+				Wenn du offline bist, wie gerade jetzt, dann ist das der einzige Ort an dem du sein kannst.
 			</p>,
 
 			<p>
