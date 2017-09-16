@@ -13,7 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "rm -rf docs && cp -r build docs",
+    "deploy": "react-scripts build && rm -rf docs && cp -r build docs",
     "serve": "serve -s docs",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
