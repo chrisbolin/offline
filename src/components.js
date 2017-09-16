@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { injectGlobal } from 'styled-components';
 
-import { bodyParagraphs, onlineElements, title } from './texts';
+import { languages, bodyParagraphs, onlineElements, title } from './texts';
 
 const colors = {
   black: '#181e1e',
@@ -134,13 +134,14 @@ export const OfflineContent = ({ language }) => (
   </Page>
 );
 
-
 export const LanguageSwitcher = ({language, onChange}) => (
-	<Select value={language} onChange={onChange} >
-		<option value="en">english</option>
-		<option value="fr">français</option>
-		<option value="es">español</option>
-		<option value="de">deutsch</option>
-		<option value="it">italiano</option>
+	<Select value={language} onChange={onChange}>
+		{
+			Object.keys(languages).map(abbr => (
+				<option value={abbr}>
+					{languages[abbr].name}
+				</option>
+			))
+		}
 	</Select>
 );
