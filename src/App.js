@@ -7,9 +7,8 @@ import { languages } from './texts';
 export default class OfflinePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
 	constructor() {
 		super();
-		const language = navigator.language.split('-')[0].toLowerCase();
 		this.state = {
-			language: languages[language] ? language : 'en',
+			language: this.getLanguage()
 		};
 	}
 	componentDidMount() {
@@ -23,7 +22,20 @@ export default class OfflinePage extends React.PureComponent { // eslint-disable
 			console.log(`Still didn't work? Damn. I'm just really sorry.`);
 		};
 	}
-	onLanguageChange = event => this.setState({ language: event.target.value})
+	getLanguage = () => {
+		const queryStringMatch = window.location.search.match(/lang=(.*)/);
+		const abbr = queryStringMatch ?
+			queryStringMatch[1]
+			: navigator.language.split('-')[0].toLowerCase();
+		console.log('found abbr', abbr);
+		return languages[abbr] ? abbr : 'en';
+	}
+	onLanguageChange = event => {
+		const language = event.target.value;
+		const nextPath = `${window.location.pathname}?lang=${language}`;
+		window.history.pushState({}, '', nextPath);
+		this.setState({ language });
+	}
   render() {
     return (
       <div>

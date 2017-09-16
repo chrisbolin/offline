@@ -138,7 +138,7 @@ export const LanguageSwitcher = ({language, onChange}) => (
 	<Select value={language} onChange={onChange}>
 		{
 			Object.keys(languages).map(abbr => (
-				<option value={abbr}>
+				<option value={abbr} key={abbr}>
 					{languages[abbr].name}
 				</option>
 			))
