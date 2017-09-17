@@ -27,7 +27,6 @@ export default class OfflinePage extends React.PureComponent { // eslint-disable
 		const abbr = queryStringMatch ?
 			queryStringMatch[1]
 			: navigator.language.split('-')[0].toLowerCase();
-		console.log('found abbr', abbr);
 		return languages[abbr] ? abbr : 'en';
 	}
 	onLanguageChange = event => {
