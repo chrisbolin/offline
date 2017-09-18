@@ -10,9 +10,4 @@ Learn more about detecting when a user is offline in the [MDN docs](https://deve
 
 ### Translations
 
-Thanks to everyone for help translating!
-
-- Spanish - translated by Javier Blanco García-Lomas and Rodrigo Solís
-- French - translated by Kévin Zanon
-- German - translated by Frank Dietrich
-- Italian - translated by Emanuela Goldoni
+[Thanks to everyone](https://github.com/chrisbolin/offline/issues/3) for the translation help!
