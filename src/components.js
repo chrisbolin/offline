@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { injectGlobal } from 'styled-components';
 
-import { languages, bodyParagraphs, onlineElements, title } from './texts';
+import { languages, bodyParagraphs, onlineElements, title, textStyle } from './texts';
 
 const colors = {
   black: '#181e1e',
@@ -114,7 +114,7 @@ const Select = styled.select`
 `
 
 export const OnlineContent = ({ language }) => (
-  <Page style={{ backgroundColor: colors.blueGrey }}>
+  <Page style={{ backgroundColor: colors.blueGrey, ...textStyle(language) }}>
 		<BlocklyHeader highlighterColor={colors.black}>
 			{onlineElements(language)}
 		</BlocklyHeader>
@@ -122,7 +122,7 @@ export const OnlineContent = ({ language }) => (
 );
 
 export const OfflineContent = ({ language }) => (
-  <Page style={{ backgroundColor: colors.white }}>
+  <Page style={{ backgroundColor: colors.white, ...textStyle(language) }}>
 		<BlocklyHeader highlighterColor={colors.funBlue}>
 			<h1>
 				{title(language)}
