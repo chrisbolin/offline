@@ -30,8 +30,8 @@ export default class OfflinePage extends React.PureComponent {
 						<Online>
 							Forwarding you to<br />
 							{address}<br />
-							This should take less than 5 seconds.<br />
-							If you're stuck you can try refreshing.
+							This should take less than 10 seconds.<br />
+							If you're stuck (sorry!) you can try refreshing.
 						</Online>
 					</h2>
 				</BlockyHeader>

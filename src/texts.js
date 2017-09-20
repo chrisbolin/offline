@@ -484,8 +484,68 @@ Et si les lecteurs avaient accès à cette inestimable attention qui rend la lec
 			</p>,
 		],
 	},
-};
 
+	// ------------------------------------ TURKISH ------------------------------------
+	tr: {
+		name: 'türkçe',
+		onlineElements: () => [
+			<h1>
+				Bu sayfayı görüntülemek için çevrimdışı olmanız gerekmektedir.
+			</h1>,
+			<br />,
+			<h2>
+				{ MOBILE ? 'Uçak Modunu Aktifleştir' : 'Devam etmek için internet bağlantınızı kesin'}
+			</h2>
+		],
+		title: () => 'Çevrimdışı',
+		bodyParagraphs: () => [
+			<p><i>2017. 2 dakikalık okuma.</i></p>,
+			<p>
+				Üretken olmak sister misiniz? Yalnızca çevrimdışı olun. Çünkü internete sürekli bağlı kalmak demek, üretkenliğinizi sekteye uğratacak dahili ve harici engelleyicilere sürekli bağlı kalmak demektir.
+			</p>,
+
+			<p>
+				Dahili engelleyiciler çok sayıda ve çeşitlidir: Gmail’de, Slack’te, Twitter’da, Facebook’ta, Instagram’da, Snapchat’te, LinkedIn’de yeni bir mesajınız var. Dostlar, aile, iş arkadaşları ve istenmeyen göndericiler (spam): her biri sizin değerli dikkatinize direkt erişim hakkına sahip.
+			</p>,
+
+			<p>
+				Ama asıl zararlı olanlar içsel dikkat dağıtıcılardır. Twitter bildirimlerini sessize alabilir veya Slack’ten çıkış yapabilirsiniz ama aklınızın raydan çıkmasına nasıl dur diyeceksiniz?
+			</p>,
+
+			<p>
+				Kendi merakımın ağlarında saatler harcadığım oldu. En tehlikelisi o bir saniyelik heves: “Dünyada en çok konuşulan ikinci dil hangisiydi acaba?” O 500 milisaniyeler tüm gününüzü değiştirebilir, çünkü o asla bir Google araması veya sadece bir Wikipedi makalesiyle sınırlı kalmaz. Çevrimdışı olmak bu hevesleri kısa devre etmektir, engellemelere takılmadan ilerlemenize izin verir.
+			</p>,
+
+			<p>
+				(Bu arada cevap İspanyolca)
+			</p>,
+
+			<p>
+				Bu sayfanın kendisi bu anlamda bir deneydir: Eğer bir sayfayı okumanız için çevrimdışı olmanız gerekseydi ne olurdu? Eğer okurlar bir romanı bir solukta bitirecek o görkemli odaklanmaya ulaşabilselerdi ne olurdu? Eğer yaratıcılar bunları modern cihazların gücüyle birleştirebilseydi ne olurdu? Bizim telefonlarımız ve taşınabilir bilgisayarlarımız yaratıcı içerikler için harika platformlar - eğer sadece kendi dikkatimizden faydalanabilirsek.
+			</p>,
+
+			<p>
+				Sadece çevrimdışı erişilebilen içerikler yaratıcıları farklı düşünmeye de zorlar. Bu sayfaya bakın: okurların dikkatini dağıtacak tek bir link bile yok. Kaç tane güzel makaleyi altı çizili ışıltılı bir link için yarım bıraktınız? Çevrimdışı olduğunuzda, gidebileceğiniz tek yer sadece burasıdır.
+			</p>,
+
+			<p>
+				Sızlanmaları şimdiden duyabiliyorum: “Ama benim çevrimiçi olmamı zorunlu kılan bir işim var.” Umrumda değil. Zaman yaratın. Bahse girerim sizi değerli kılan şey Google’da bir şeyleri arayabilmeniz değil, bilgiyi sentezleyebilmenizdir. İnternette araştırmanızı yapın ve sıra üretime geldiğinde çevrimdışı olun.
+			</p>,
+
+			<p>
+				Şimdi rutin internet hayatınıza dönün. Ama kendinizi çevrimdışı olmakla ödüllendirmeyi unutmayın.
+			</p>,
+
+			<p>
+				<span role="img" aria-label="love">❤️</span> Chris Bolin, <OfflineLink href="https://www.twitter.com/bolinchris">@bolinchris</OfflineLink>
+			</p>,
+
+			<p>
+				Fırat Demirel tarafından tercüme edildi.
+			</p>,
+		],
+	},
+};
 
 export const bodyParagraphs = (language) => languages[language].bodyParagraphs();
 export const onlineElements = (language) => languages[language].onlineElements();
