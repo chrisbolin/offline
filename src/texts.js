@@ -86,38 +86,43 @@ export const languages = {
 			</h1>,
 			<br />,
 			<h2>
-				{ MOBILE ? 'Activer le mode Avion.' : 'Déconnectez-vous pour continuer.'}
+				{ MOBILE ? 'Activez le mode Avion.' : 'Déconnectez-vous pour continuer.'}
 			</h2>
 		],
 		title: () => 'Déconnecté uniquement',
 		bodyParagraphs: () => [
-			<p><i>2017. 2 minutes pour lire.</i></p>,
+			<p><i>2017. Temps de lecture : 2 minutes.</i></p>,
 			<p>
-				Vous voulez être productif ? Il suffit de passer en mode « hors connexion », car maintenir une connexion constante à internet est le meilleur moyen de maintenir une connexion constante aux interruptions, à la fois externes et internes.
+				Vous voulez être productif ? Déconnectez-vous. Maintenir une connexion constante à Internet, c'est maintenir une connexion constante aux interruptions, à la fois externes et internes.
 			</p>,
 
 			<p>
-				Les interruptions externes sont légion et bien présentes : vous avez un nouveau message sur Gmail, Twitter, Facebook, Instagram, Snapchat, LinkedIn. Amis, famille, collègues et spammeurs : chacun a un accès direct à votre précieuse attention.
+				Les interruptions externes sont nombreuses et bien connues : vous recevez un nouveau message sur Gmail, Slack, Twitter, Facebook, Instagram, Snapchat, LinkedIn. Vos amis, votre famille, vos collègues ou les spammeurs : chacun à un accès direct à votre précieuse attention.
 			</p>,
 
 			<p>
-				Mais ce sont les distractions internes qui sont les plus pernicieuses. Vous pouvez annuler les notifications de Twitter et vous déconnecter de Facebook, mais comment empêcher votre esprit de vous distraire ? J’ai passé des heures dans les méandres de ma propre curiosité. Le plus dangereux est le caprice de la fraction de seconde, à propos de presque rien : “ Je me demande quelle est la deuxième langue la plus fréquemment parlée ? ”. Comment ces 500 millisecondes pourraient-elles changer votre journée ? Car ce n’est jamais qu’une seule recherche sur Google, juste un article sur Wikipédia. Se déconnecter d’internet, c’est court-circuiter ces caprices, vous permettant de vous déplacer sans encombre.
+				Mais ce sont les distractions internes qui sont les plus pernicieuses. Vous pouvez désactiver les notifications de Twitter et vous déconnecter de Slack, mais comment empêcher votre propre esprit de vous distraire ?
 			</p>,
 
 			<p>
-				(C’est l’espagnol, soit dit en passant).
+				J'ai passé des heures dans les méandres de ma propre curiosité. Vous savez... l'idée qui vous traverse l'esprit en une fraction de seconde ? C'est la plus dangereuse. "Quelle est la deuxième langue la plus fréquemment parlée ?" Ces 500 millisecondes peuvent changer votre journée, car ce n'est jamais qu'une recherche sur Google, jamais qu'une seule lecture sur Wikipédia. Se déconnecter d'Internet, c'est court-circuiter ces idées soudaines, vous permettant d'avancer sans encombre.
 			</p>,
 
 			<p>
-				Cette page elle-même est une expérience inspirée de cette idée : que faire si certains contenus nous obligaient à nous déconnecter ? Et si les lecteurs avaient accès à cette inestimable attention qui rend le roman si passionnant pendant des heures ? Et si les créateurs pouvaient coupler cela avec la puissance des appareils modernes ? Nos téléphones et ordinateurs portables sont des plates-formes incroyables pour de nouveaux contenus — si seulement nous pouvions attirer notre attention.
+				(C'est l'Espagnol, au passage.)
 			</p>,
 
 			<p>
-				Un contenu disponible uniquement hors ligne obligerait les créateurs à réfléchir différemment. Regardez cette page : il n’y a pas de lien, pas de note de bas de page pour distraire les lecteurs. Combien de bons articles avez-vous laissés en cours de lecture parce que vous avez suivi un lien ? Lorsque vous êtes hors ligne, vous êtes présent et attentif.
+			Cette page elle-même est une expérience dans cette veine : que se passe-t-il si certains contenus nous obligent à nous déconnecter ?
+Et si les lecteurs avaient accès à cette inestimable attention qui rend la lecture d'un roman si passionnante pendant des heures ? Et si les créateurs pouvaient coupler cela avec la puissance des nouvelles technologies ? Nos téléphones et nos ordinateurs portables sont des outils incroyables pour de nouveaux contenus — si seulement nous pouvions maîtriser notre propre attention.
 			</p>,
 
 			<p>
-				Je peux déjà en entendre se plaindre : “ Mais je dois être en ligne pour mon travail. ” Peu importe. Prenez le temps. Je parie que ce qui vous rend si précieux n’est pas votre capacité à aller sur Google, mais votre capacité à synthétiser l’information. Faites vos recherches en ligne, mais créez déconnecté.
+				Un contenu accessible hors ligne uniquement obligerait les créateurs à réfléchir différemment. Regardez cette page : il n'y a pas de lien pour distraire les lecteurs. Combien de bons articles avez-vous laissés en cours de lecture parce que vous avez suivi un lien attirant votre attention ? Lorsque vous n'avez plus Internet, vous êtes présent et attentif.
+			</p>,
+
+			<p>
+				Je peux déjà entendre les critiques : "Mais je dois être en ligne pour mon travail." Peu importe. Prenez le temps. Je parie que ce qui vous valorise n'est pas votre capacité à effectuer une recherche sur Google, mais votre capacité à synthétiser l'information. Faites vos recherches en ligne; créer hors ligne.
 			</p>,
 
 			<p>
@@ -129,8 +134,9 @@ export const languages = {
 				<br/>
 				<i>(@bolinchris quand vous serez reconnecté)</i>
 			</p>,
+
 			<p>
-				Traduit par Kévin Zanon.
+				Traduit par Kévin Zanon et Edouard Alvard.
 			</p>
 		],
 	},
