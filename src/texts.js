@@ -4,6 +4,12 @@ import { A, OfflineLink } from './link';
 
 const MOBILE = /Mobile|Android/.test(navigator.userAgent);
 
+const Signature = () => (
+	<p style={{direction: 'ltr'}}>
+		<span role="img" aria-label="love">❤️</span> Chris Bolin, <OfflineLink href="https://www.twitter.com/bolinchris">@bolinchris</OfflineLink>
+	</p>
+);
+
 export const languages = {
 	// ------------------------------------ ENGLISH (original) ------------------------------------
 	en: {
@@ -71,9 +77,7 @@ export const languages = {
 				Now back to your regularly scheduled internet. Just remember to give yourself an occasional gift of disconnection.
 			</p>,
 
-			<p>
-				<span role="img" aria-label="love">❤️</span> Chris Bolin, <OfflineLink href="https://www.twitter.com/bolinchris">@bolinchris</OfflineLink>
-			</p>,
+			<Signature />,
 
 			<p>
 				<i>P.S.</i> If you liked this little experiment you could <OfflineLink href="https://twitter.com/bolinchris/status/890216223367213058">share it on Twitter.</OfflineLink> (But isn’t it ironic to spread a message of disconnection using social media? Yes, yes it is. And the real world is full of irony, so strap in.)
@@ -133,11 +137,7 @@ Et si les lecteurs avaient accès à cette inestimable attention qui rend la lec
 				Reconnectez-vous à présent. Mais n’oubliez pas de vous offrir occasionnellement une déconnexion.
 			</p>,
 
-			<p>
-				<span role="img" aria-label="love">❤️</span> Chris Bolin
-				<br/>
-				<i>(@bolinchris quand vous serez reconnecté)</i>
-			</p>,
+			<Signature />,
 
 			<p>
 				Traduit par Kévin Zanon et Edouard Alvard.
@@ -196,11 +196,7 @@ Et si les lecteurs avaient accès à cette inestimable attention qui rend la lec
 			<p>
 				Ora torna pure alle tue attività su Internet. Ricorda solo di fare a te stesso un piccolo regalo ogni tanto: disconnettiti.
 			</p>,
-			<p>
-				<span role="img" aria-label="love">❤️</span> Chris Bolin
-				<br/>
-				<i>(@bolinchris quando ti riconnetti)</i>
-			</p>,
+			<Signature />,
 			<p>
 				Tradotto da Emanuela Goldoni.
 			</p>
@@ -274,11 +270,8 @@ Et si les lecteurs avaient accès à cette inestimable attention qui rend la lec
 				Ahora vuelve a tu actividad normal en Internet. Lo único, no te olvides hacerte de vez en cuando un regalo a tí mismo: desconectar.
 			</p>,
 
-			<p>
-				<span role="img" aria-label="love">❤️</span> Chris Bolin
-				<br/>
-				<i>(@bolinchris cuando te conectes)</i>
-			</p>,
+			<Signature />,
+
 			<p>
 				Traducido por Javier Blanco García-Lomas y Rodrigo Solís.
 			</p>
@@ -352,11 +345,8 @@ Et si les lecteurs avaient accès à cette inestimable attention qui rend la lec
 				Nun kehre zurück zum regulären Internet. Denke nur daran, dir gelegentlich selbst das Geschenk der Trennung davon zu machen.
 			</p>,
 
-			<p>
-				<span role="img" aria-label="love">❤️</span> Chris Bolin
-				<br/>
-				<i>(@bolinchris wenn du wieder online bist)</i>
-			</p>,
+			<Signature />,
+
 			<p>
 				Übersetzt von Frank Dietrich
 			</p>
@@ -417,9 +407,8 @@ Et si les lecteurs avaient accès à cette inestimable attention qui rend la lec
 				Ну, теперь возвращайтесь к вашему регулярно-назначенному интернету. Только не забудьте иногда сделать себе подарок в виде его отключения.
 			</p>,
 
-			<p>
-				<span role="img" aria-label="love">❤️</span> Крис (Chris Bolin, @bolinchris)
-			</p>,
+			<Signature />,
+
 			<p>
 				Перевод Никиты Н.
 			</p>
@@ -474,11 +463,8 @@ Et si les lecteurs avaient accès à cette inestimable attention qui rend la lec
 				الآن عد إلى جدولك الاعتيادي على الانترنت. فقط تذكر ان تعطي نفسك هدايا دورية من الانقطاع عن الانترنت.
 			</p>,
 
-			<p style={{direction: 'ltr'}}>
-				<span role="img" aria-label="love">❤️</span> Chris Bolin
-				<br/>
-				<i>(@bolinchris when you reconnect)</i>
-			</p>,
+			<Signature />,
+
 			<p>
 				ترجمة جميلة ري
 			</p>,
@@ -536,9 +522,7 @@ Et si les lecteurs avaient accès à cette inestimable attention qui rend la lec
 				Şimdi rutin internet hayatınıza dönün. Ama kendinizi çevrimdışı olmakla ödüllendirmeyi unutmayın.
 			</p>,
 
-			<p>
-				<span role="img" aria-label="love">❤️</span> Chris Bolin, <OfflineLink href="https://www.twitter.com/bolinchris">@bolinchris</OfflineLink>
-			</p>,
+			<Signature />,
 
 			<p>
 				Fırat Demirel tarafından tercüme edildi.
