@@ -89,11 +89,11 @@ export const languages = {
 				{ MOBILE ? 'Activez le mode Avion.' : 'Déconnectez-vous pour continuer.'}
 			</h2>
 		],
-		title: () => 'Déconnecté uniquement',
+		title: () => 'Déconnexion',
 		bodyParagraphs: () => [
 			<p><i>2017. Temps de lecture : 2 minutes.</i></p>,
 			<p>
-				Vous voulez être productif ? Déconnectez-vous. Maintenir une connexion constante à Internet, c'est maintenir une connexion constante aux interruptions, à la fois externes et internes.
+				Vous voulez être productif ? Déconnectez-vous, car maintenir un lien permanent à Internet, c’est maintenir un lien avec des sources de distraction, internes et externes.
 			</p>,
 
 			<p>
