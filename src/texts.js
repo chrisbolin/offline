@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Link from './link';
+import { A, OfflineLink } from './link';
 
 const MOBILE = /Mobile|Android/.test(navigator.userAgent);
 
@@ -72,11 +72,11 @@ export const languages = {
 			</p>,
 
 			<p>
-				<span role="img" aria-label="love">❤️</span> Chris Bolin, <Link href="https://www.twitter.com/bolinchris">@bolinchris</Link>
+				<span role="img" aria-label="love">❤️</span> Chris Bolin, <OfflineLink href="https://www.twitter.com/bolinchris">@bolinchris</OfflineLink>
 			</p>,
 
 			<p>
-				<i>P.S.</i> If you liked this little experiment you could <Link href="https://twitter.com/bolinchris/status/890216223367213058">share it on Twitter.</Link> (But isn’t it ironic to spread a message of disconnection using social media? Yes, yes it is. And the real world is full of irony, so strap in.)
+				<i>P.S.</i> If you liked this little experiment you could <OfflineLink href="https://twitter.com/bolinchris/status/890216223367213058">share it on Twitter.</OfflineLink> (But isn’t it ironic to spread a message of disconnection using social media? Yes, yes it is. And the real world is full of irony, so strap in.)
 			</p>,
 		],
 	},
