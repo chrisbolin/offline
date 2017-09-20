@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Link from './link';
+
 const MOBILE = /Mobile|Android/.test(navigator.userAgent);
 
 export const languages = {
@@ -54,7 +56,7 @@ export const languages = {
 
 			<p>
 				Offline-only content would also force creators to think differently.
-				Look at this page: there is not a single link to distract readers.
+				Look up; there was not a single link to distract readers.
 				How many good articles have you left half-read because you chased a shiny underlined link?
 				When you are offline, right here is the only place you can be.
 			</p>,
@@ -70,9 +72,11 @@ export const languages = {
 			</p>,
 
 			<p>
-				<span role="img" aria-label="love">❤️</span> Chris Bolin
-				<br/>
-				<i>(@bolinchris when you reconnect)</i>
+				<span role="img" aria-label="love">❤️</span> Chris Bolin, <Link href="https://www.twitter.com/bolinchris">@bolinchris</Link>
+			</p>,
+
+			<p>
+				<i>P.S.</i> If you liked this little experiment you could <Link href="https://twitter.com/bolinchris/status/890216223367213058">share it on Twitter.</Link> (But isn’t it ironic to spread a message of disconnection using social media? Yes, yes it is. And the real world is full of irony, so strap in.)
 			</p>,
 		],
 	},

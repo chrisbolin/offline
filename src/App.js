@@ -4,7 +4,7 @@ import { Offline, Online } from 'react-detect-offline';
 import { OnlineContent, OfflineContent, LanguageSwitcher } from './components';
 import { languages } from './texts';
 
-export default class OfflinePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
+export default class OfflinePage extends React.PureComponent {
 	constructor() {
 		super();
 		this.state = {
