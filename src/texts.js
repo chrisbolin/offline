@@ -101,7 +101,7 @@ export const languages = {
 			</p>,
 
 			<p>
-				Les interruptions externes sont nombreuses et bien connues : vous recevez un nouveau message sur Gmail, Slack, Twitter, Facebook, Instagram, Snapchat, LinkedIn. Vos amis, votre famille, vos collègues ou les spammeurs : chacun à un accès direct à votre précieuse attention.
+				Les interruptions externes sont nombreuses et bien connues : vous recevez un nouveau message sur Gmail, Slack, Twitter, Facebook, Instagram, Snapchat, LinkedIn. Vos amis, votre famille, vos collègues ou les spammeurs : chacun a un accès direct à votre précieuse attention.
 			</p>,
 
 			<p>
