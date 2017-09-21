@@ -476,7 +476,7 @@ Et si les lecteurs avaient accès à cette inestimable attention qui rend la lec
 		name: 'türkçe',
 		onlineElements: () => [
 			<h1>
-				Bu sayfayı görüntülemek için çevrimdışı olmanız gerekmektedir.
+				Bu sayfaya erişmek için çevrimdışı olmanız gerekiyor
 			</h1>,
 			<br />,
 			<h2>
@@ -487,7 +487,7 @@ Et si les lecteurs avaient accès à cette inestimable attention qui rend la lec
 		bodyParagraphs: () => [
 			<p><i>2017. 2 dakikalık okuma.</i></p>,
 			<p>
-				Üretken olmak sister misiniz? Yalnızca çevrimdışı olun. Çünkü internete sürekli bağlı kalmak demek, üretkenliğinizi sekteye uğratacak dahili ve harici engelleyicilere sürekli bağlı kalmak demektir.
+				Üretken olmak ister misiniz? Yalnızca çevrimdışı olun. Çünkü internete sürekli bağlı kalmak demek, üretkenliğinizi sekteye uğratacak dahili ve harici engelleyicilere sürekli bağlı kalmak demektir.
 			</p>,
 
 			<p>
