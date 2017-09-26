@@ -585,7 +585,7 @@ Et si les lecteurs avaient accès à cette inestimable attention qui rend la lec
 			<Signature />,
 
 			<p>
-			תרגום: עידו קינן
+			תרגום: עידו קינן והדר בן יהודה
 			</p>,
 		],
 	},
