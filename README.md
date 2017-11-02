@@ -1,4 +1,4 @@
-Possibly the world's first *offline only* website: https://chris.bolin.co/offline.
+An *offline only* website: https://chris.bolin.co/offline.
 
 Want this available in *your language*? https://github.com/chrisbolin/offline/issues/3
 
