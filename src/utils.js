@@ -1,21 +1,21 @@
-import { injectGlobal } from 'styled-components';
+import { injectGlobal } from "styled-components";
 
 export const colors = {
-  black: '#181e1e',
-  white: '#f6f6f6',
-  blueGrey: '#a0a9bb',
-  funBlue: '#7f8ed1',
-  selectionGreen: '#47ff90',
+  black: "#181e1e",
+  white: "#f6f6f6",
+  blueGrey: "#a0a9bb",
+  funBlue: "#7f8ed1",
+  selectionGreen: "#47ff90"
 };
 
 export const forwarderAddress = () => {
-	const match = window.location.search.match(/forward=(.*)/);
-	return match && match[1];
+  const match = window.location.search.match(/forward=(.*)/);
+  return match && match[1];
 };
 
 export const globalStyles = () => {
-	/* eslint no-unused-expressions: 0 */
-	injectGlobal`
+  /* eslint no-unused-expressions: 0 */
+  injectGlobal`
 	  html,
 	  body {
 	    background-color: ${colors.black};
@@ -47,4 +47,4 @@ export const globalStyles = () => {
 	    }
 	  }
 	`;
-}
+};
