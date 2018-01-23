@@ -17,7 +17,7 @@ export default class OfflinePage extends React.PureComponent {
       `Check out https://github.com/chrisbolin/react-detect-offline (if you're online!)`
     );
     console.log(
-      `Spoiler: window.addEventListener with 'online' and 'offline', plus navigator.onLine`
+      `Hint: window.addEventListener with 'online' and 'offline', plus navigator.onLine`
     );
     console.log(
       `If it isn't working for you, maybe your browser isn't supported - http://caniuse.com/#feat=online-status.`
