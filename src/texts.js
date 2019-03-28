@@ -4,15 +4,20 @@ import { OfflineLink } from "./link";
 
 const MOBILE = /Mobile|Android/.test(navigator.userAgent);
 
-const Signature = () => (
+const Signature = ({ twitter = true }) => (
   <p style={{ direction: "ltr" }}>
     <span role="img" aria-label="love">
       ❤️
     </span>{" "}
-    Chris Bolin,{" "}
-    <OfflineLink href="https://www.twitter.com/bolinchris">
-      @bolinchris
-    </OfflineLink>
+    Chris Bolin
+    {twitter && (
+      <span>
+        ,{" "}
+        <OfflineLink href="https://www.twitter.com/bolinchris">
+          @bolinchris
+        </OfflineLink>
+      </span>
+    )}
   </p>
 );
 
@@ -110,16 +115,15 @@ export const languages = {
         yourself an occasional gift of disconnection.
       </p>,
 
-      <Signature />,
+      <Signature twitter={false} />,
 
       <p>
-        <i>P.S.</i> If you liked this little experiment you could{" "}
-        <OfflineLink href="https://twitter.com/bolinchris/status/890216223367213058">
-          share it on Twitter.
+        <i>Update:</i> This little experiment in 2017 has become something
+        bigger:{" "}
+        <OfflineLink href="https://thedisconnect.co">
+          The Disconnect
         </OfflineLink>{" "}
-        (But isn’t it ironic to spread a message of disconnection using social
-        media? Yes, yes it is. And the real world is full of irony, so strap
-        in.)
+        is an offline digital magazine on the web.
       </p>
     ]
   },
