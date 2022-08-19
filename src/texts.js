@@ -42,7 +42,7 @@ export const languages = {
     onlineElements: () => [
       <h1>You must go offline to view this page.</h1>,
       <br />,
-      <h2>{MOBILE ? "Enable Airplane Mode." : "Disconnect to continue"}</h2>
+      <h2>{MOBILE ? "Enable Airplane Mode." : "Disconnect to continue"}</h2>,
     ],
     title: () => "Offline Only",
     bodyParagraphs: () => [
@@ -116,8 +116,8 @@ export const languages = {
           The Disconnect
         </OfflineLink>{" "}
         is an offline digital magazine on the web.
-      </p>
-    ]
+      </p>,
+    ],
   },
 
   // ------------------------------------ FRENCH ------------------------------------
@@ -128,7 +128,7 @@ export const languages = {
       <br />,
       <h2>
         {MOBILE ? "Activez le mode Avion." : "Déconnectez-vous pour continuer."}
-      </h2>
+      </h2>,
     ],
     title: () => "Déconnexion",
     bodyParagraphs: () => [
@@ -202,8 +202,8 @@ export const languages = {
 
       <Signature />,
 
-      <p>Traduit par Kévin Zanon et Edouard Alvard.</p>
-    ]
+      <p>Traduit par Kévin Zanon et Edouard Alvard.</p>,
+    ],
   },
 
   // ------------------------------------ ITALIAN ------------------------------------
@@ -214,7 +214,7 @@ export const languages = {
       <br />,
       <h2>
         {MOBILE ? "Abilita la modalità aereo." : "Disconnettiti per continuare"}
-      </h2>
+      </h2>,
     ],
     title: () => "Solo Offline",
     bodyParagraphs: () => [
@@ -288,8 +288,8 @@ export const languages = {
         stesso un piccolo regalo ogni tanto: disconnettiti.
       </p>,
       <Signature />,
-      <p>Tradotto da Emanuela Goldoni.</p>
-    ]
+      <p>Tradotto da Emanuela Goldoni.</p>,
+    ],
   },
 
   // ------------------------------------ SPANISH ------------------------------------
@@ -298,7 +298,9 @@ export const languages = {
     onlineElements: () => [
       <h1>Tienes que desconectarte para consultar esta página.</h1>,
       <br />,
-      <h2>{MOBILE ? "Activa el modo avión" : "Desconéctate para continuar"}</h2>
+      <h2>
+        {MOBILE ? "Activa el modo avión" : "Desconéctate para continuar"}
+      </h2>,
     ],
     title: () => "Sólo sin conexión",
     bodyParagraphs: () => [
@@ -369,8 +371,8 @@ export const languages = {
 
       <Signature />,
 
-      <p>Traducido por Javier Blanco García-Lomas y Rodrigo Solís.</p>
-    ]
+      <p>Traducido por Javier Blanco García-Lomas y Rodrigo Solís.</p>,
+    ],
   },
 
   // ------------------------------------ GERMAN ------------------------------------
@@ -383,7 +385,7 @@ export const languages = {
         {MOBILE
           ? "Flugzeugmodus aktivieren"
           : "Internetverbindung trennen um fortzufahren"}
-      </h2>
+      </h2>,
     ],
     title: () => "Nur Offline",
     bodyParagraphs: () => [
@@ -456,8 +458,8 @@ export const languages = {
 
       <Signature />,
 
-      <p>Übersetzt von Frank Dietrich</p>
-    ]
+      <p>Übersetzt von Frank Dietrich</p>,
+    ],
   },
 
   // ------------------------------------ RUSSIAN ------------------------------------
@@ -472,7 +474,7 @@ export const languages = {
         {MOBILE
           ? "Пожалуйста отключитесь  от интернета, чтобы продолжить. (авиарежим)"
           : "Пожалуйста отключитесь  от интернета, чтобы продолжить."}
-      </h2>
+      </h2>,
     ],
     title: () => "Теперь мы вне сети",
     bodyParagraphs: () => [
@@ -544,8 +546,8 @@ export const languages = {
 
       <Signature />,
 
-      <p>Перевод Никиты Н.</p>
-    ]
+      <p>Перевод Никиты Н.</p>,
+    ],
   },
 
   // ------------------------------------ ARABIC ------------------------------------
@@ -555,7 +557,7 @@ export const languages = {
     onlineElements: () => [
       <h1>عليك أن تقطع اتصالك بالإنترنت لتشاهد الصفحة</h1>,
       <br />,
-      <h2>{MOBILE ? "فعل وضعية الطيران" : "اقطع اتصالك لتكمل"}</h2>
+      <h2>{MOBILE ? "فعل وضعية الطيران" : "اقطع اتصالك لتكمل"}</h2>,
     ],
     title: () => "دون اتصال بالإنترنت فقط",
     bodyParagraphs: () => [
@@ -617,8 +619,8 @@ export const languages = {
 
       <Signature />,
 
-      <p>ترجمة جميلة ري</p>
-    ]
+      <p>ترجمة جميلة ري</p>,
+    ],
   },
 
   // ------------------------------------ TURKISH ------------------------------------
@@ -631,7 +633,7 @@ export const languages = {
         {MOBILE
           ? "Uçak Modunu Aktifleştir"
           : "Devam etmek için internet bağlantınızı kesin"}
-      </h2>
+      </h2>,
     ],
     title: () => "Çevrimdışı",
     bodyParagraphs: () => [
@@ -701,8 +703,8 @@ export const languages = {
 
       <Signature />,
 
-      <p>Fırat Demirel tarafından tercüme edildi.</p>
-    ]
+      <p>Fırat Demirel tarafından tercüme edildi.</p>,
+    ],
   },
 
   // ------------------------------------ HEBREW ------------------------------------
@@ -712,7 +714,7 @@ export const languages = {
     onlineElements: () => [
       <h1>כדי לצפות בדף זה, עליכם לעבור למצב אופליין.</h1>,
       <br />,
-      <h2>{MOBILE ? "עיברו למצב טיסה." : "התנתקו כדי להמשיך."}</h2>
+      <h2>{MOBILE ? "עיברו למצב טיסה." : "התנתקו כדי להמשיך."}</h2>,
     ],
     title: () => "אופליין בלבד",
     bodyParagraphs: () => [
@@ -776,8 +778,8 @@ export const languages = {
 
       <Signature />,
 
-      <p>תרגום: עידו קינן והדר בן יהודה</p>
-    ]
+      <p>תרגום: עידו קינן והדר בן יהודה</p>,
+    ],
   },
   // --------------------------------- PERSIAN ---------------------------------
   fa: {
@@ -791,7 +793,7 @@ export const languages = {
         {MOBILE
           ? "حالت پرواز را فعال کنید."
           : "براي ادامه دادن، اینترنت خود را قطع کنید."}
-      </h2>
+      </h2>,
     ],
     title: () => "فقط به صورت آفلاین",
 
@@ -859,14 +861,90 @@ export const languages = {
       <p>
         ترجمه شده توسط سید اکبر مصطفوي، ایمان میرزائی، نوشین محتسبی و محسن
         بازیاري
-      </p>
-    ]
-  }
+      </p>,
+    ],
+  },
+  // --------------------------------- BENGALI ---------------------------------
+  bn: {
+    name: "বাংলা",
+    rightToLeft: false,
+    onlineElements: () => [
+      <h1>এই ওয়েবসাইট টি দেখতে আপনাকে অবশ্যই অফলাইন যেতে হবে।</h1>,
+      <br />,
+      <h2>
+        {MOBILE
+          ? "ওয়েবসাইট টি দেখতে আপনার ইন্টারনেট সংযোগ বন্ধ করুন (এরোপ্লেন মোড চালু করতে পারেন) ।"
+          : "ওয়েবসাইট টি দেখতে আপনার ইন্টারনেট সংযোগ বন্ধ করুন ।"}
+      </h2>,
+    ],
+    title: () => "শুধুমাত্র অফলাইন",
+    bodyParagraphs: () => [
+      <p>
+        <i>২ মিনিটে পড়ুন।</i>
+      </p>,
+      <p>
+        আপনি কি প্রোডাক্টিভ হতে চান? শুধু অফলাইনে যান, কারণ ইন্টারনেটের সাথে
+        একটি অবিচ্ছিন্ন সংযোগ বজায় রাখার অর্থ হলো বাহ্যিক এবং অভ্যন্তরীণ উভয়
+        বাধাগুলির সাথে একটি অবিচ্ছিন্ন সংযোগ বজায় রাখা।
+      </p>,
+      <p>
+        বাহ্যিক বাধা অনেক এবং সেগুলো ভালভাবে নথিভুক্ত করা। যেমন: আপনার জিমেইল,
+        স্ল্যাক, টুইটার, ফেসবুক, ইনস্টাগ্রাম, স্ন্যাপচ্যাট, লিংকডইন-এ একটি নতুন
+        নোটিফিকেশন এসেছে৷ আপনার বন্ধু, পরিবার, সহকর্মী, স্প্যামার প্রত্যেকের
+        কাছেই আপনার মূল্যবান মনোযোগের সরাসরি অ্যাক্সেস রয়েছে।
+      </p>,
+      <p>
+        কিন্তু এটি অভ্যন্তরীণ বিভ্রান্তি যা সত্যিই ক্ষতিকারক। আপনি টুইটার এর
+        নোটিফিকেশন বন্ধ করে দিতে পারেন এবং স্ল্যাক থেকে লগ-আউট করতে পারেন,
+        কিন্তু আপনি কীভাবে আপনার নিজের মনকে লক্ষ্যচ্যুত করা থেকে বিরত করবেন?
+      </p>,
+      <p>
+        আমি আমার নিজের কৌতূহলের জালে আটকে ঘন্টা কাটিয়েছি। সবচেয়ে ক্ষতিকারক হলো
+        কিছু সময়ের জন্য হটাৎ অহেতুক চিন্তা করা। যেমন: "দ্বিতীয় সর্বাধিক কথ্য
+        ভাষা কী হতে পারে?" এই ৫০০ মিলিসেকেন্ড আপনার দিন পরিবর্তন করতে পারে, কারণ
+        এটি শুধুমাত্র একটি গুগল সার্চ নয় কিংবা শুধুমাত্র একটি উইকিপিডিয়া
+        নিবন্ধ নয়। ইন্টারনেট সংযোগ বন্ধ করলে আপনি সেই সব অহেতুক চিন্তা ভাবনা
+        থেকে দূরে থাকবেন, যার ফলে আপনি সহজে লক্ষ্যচ্যুত হবেন না।
+      </p>,
+      <p>(এটা বাংলা)</p>,
+      <p>
+        এই ওয়েবসাইট টি এই বিষয়েই একটি এক্সপেরিমেন্ট। আমাদের ফোন এবং
+        ল্যাপটপগুলি উদ্ভাবনী বিষয়বস্তুর জন্য আশ্চর্যজনক প্ল্যাটফর্ম—যদি আমরা
+        আমাদের নিজস্ব মেধা ব্যবহার করতে পারি।
+      </p>,
+      <p>
+        শুধুমাত্র অফলাইন বিষয়বস্তু ওয়েবসাইট ডেভেলোপারদের ভিন্নভাবে চিন্তা করতে
+        বাধ্য করবে। এই পৃষ্ঠাটি দেখুন: পাঠকদের বিভ্রান্ত করার জন্য কোনো বাড়তি
+        লিঙ্ক নেই। আপনি একটি চকচকে আন্ডারলাইন করা লিঙ্ক অনুসরণ করার কারণে কতগুলি
+        ভালো নিবন্ধ অর্ধেক পড়ে ছেড়ে দিয়েছেন? আপনি যখন অফলাইনে থাকেন, তখন
+        আপনার আর কোথাও যাওয়ার জায়গা থেকে না, আপনি এইখানেই থাকেন।
+      </p>,
+      <p>
+        আমি ইতিমধ্যেই আপনাদের বাহানা শুনতে পাচ্ছি: "কিন্তু আমার কাজের জন্য আমাকে
+        অনলাইনে থাকতে হবে।" আমি পরোয়া করি না। আপনি আপনার জন্য সময় করুন। আমি
+        বাজি ধরে বলতে পারি, যে জিনিসটি আপনাকে মূল্যবান করে তোলে তা আপনার গুগলে
+        কিছু সার্চ করার ক্ষমতা নয় বরং নিজে তথ্য সংশ্লেষণ করার ক্ষমতা। অনলাইনে
+        আপনার গবেষণা করুন; অফলাইন তৈরি করুন।
+      </p>,
+      <p>
+        এখন আপনি আপনার নিয়মিত রুটিনে নির্ধারিত করা ইন্টারনেটে ফিরে যেতে পারেন।
+        শুধু মাঝে মাঝে কিছু সময়ের জন্য অফলাইন মোড-এ গিয়ে নিজেকে উপহার দিতে মনে
+        রাখবেন।
+      </p>,
+      <Signature />,
+      <p>অনুবাদ করেছেন: জুবায়ের ইসলাম।</p>,
+    ],
+  },
 };
 
-export const bodyParagraphs = language => languages[language].bodyParagraphs();
-export const onlineElements = language => languages[language].onlineElements();
-export const title = language => languages[language].title();
-export const textStyle = language => ({
-  direction: languages[language].rightToLeft ? "rtl" : "inherit"
+export const bodyParagraphs = (language) =>
+  languages[language].bodyParagraphs();
+
+  export const onlineElements = (language) =>
+  languages[language].onlineElements();
+
+  export const title = (language) => languages[language].title();
+
+  export const textStyle = (language) => ({
+  direction: languages[language].rightToLeft ? "rtl" : "inherit",
 });
