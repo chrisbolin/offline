@@ -4,20 +4,12 @@ import { OfflineLink } from "./link";
 
 const MOBILE = /Mobile|Android/.test(navigator.userAgent);
 
-const Signature = ({ twitter = true }) => (
+const Signature = () => (
   <p style={{ direction: "ltr" }}>
     <span role="img" aria-label="love">
       ❤️
     </span>{" "}
     Chris Bolin
-    {twitter && (
-      <span>
-        ,{" "}
-        <OfflineLink href="https://www.twitter.com/bolinchris">
-          @bolinchris
-        </OfflineLink>
-      </span>
-    )}
   </p>
 );
 
