@@ -1,6 +1,6 @@
 An *offline only* website: https://chris.bolin.co/offline.
 
-Want this available in *your language*? https://github.com/chrisbolin/offline/issues/3
+Want this available in *your language*? [Translate it here.](https://github.com/chrisbolin/offline/issues/3)
 
 Looking for my *React Library*? [react-detect-offline](https://github.com/chrisbolin/react-detect-offline).
 
