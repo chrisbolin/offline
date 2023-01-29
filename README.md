@@ -4,8 +4,6 @@ Want this available in *your language*? [Translate it here.](https://github.com/
 
 Looking for my *React Library*? [react-detect-offline](https://github.com/chrisbolin/react-detect-offline).
 
-![Offline Only logo](https://chrisbolin.github.io/offline/preview.png)
-
 Learn more about detecting when a user is offline in the [MDN docs](https://developer.mozilla.org/en-US/docs/Online_and_offline_events).
 
 ### Translations
